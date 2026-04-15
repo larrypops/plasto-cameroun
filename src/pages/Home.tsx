@@ -47,6 +47,8 @@ export default function Home() {
             src="/images/hero-background.jpg"
             alt="Réservoirs d'eau Plasto Cameroun"
             className="w-full h-full object-cover opacity-25"
+            loading="eager"
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-paper via-paper/80 to-transparent" />
         </div>
@@ -111,7 +113,8 @@ export default function Home() {
               <img
                 src="/images/produit-04.jpg"
                 alt="Solution de stockage d'eau"
-                className="rounded-3xl shadow-2xl"
+                className="w-full h-auto rounded-3xl shadow-2xl object-cover"
+                loading="lazy"
               />
               <div className="absolute -bottom-10 -right-10 hidden md:block w-64 bg-primary p-8 rounded-3xl text-white shadow-xl">
                 <p className="text-4xl font-bold mb-2">100%</p>

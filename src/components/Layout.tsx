@@ -44,6 +44,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               src="/images/logo.jpg"
               alt="Logo Plasto Cameroun"
               className="w-10 h-10 rounded-lg object-cover"
+              loading="eager"
             />
             <span className="font-serif text-2xl font-bold tracking-tight text-primary">
               PLASTO <span className="text-slate-800">CAMEROUN</span>
@@ -126,6 +127,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                   src="/images/logo.jpg"
                   alt="Logo Plasto Cameroun"
                   className="w-8 h-8 rounded object-cover"
+                  loading="lazy"
                 />
                 <span className="font-serif text-xl font-bold text-white">PLASTO CAMEROUN</span>
               </Link>

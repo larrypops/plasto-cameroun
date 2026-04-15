@@ -73,9 +73,10 @@ export default function About() {
                 src="/images/produit-03.jpg"
                 alt="Équipe Plasto Cameroun"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
-            <div className="absolute -top-10 -left-10 w-40 h-40 bg-accent rounded-full flex items-center justify-center text-white text-center p-4 rotate-12 shadow-xl">
+            <div className="absolute -top-10 -left-10 w-40 h-40 bg-accent rounded-full hidden sm:flex items-center justify-center text-white text-center p-4 rotate-12 shadow-xl">
               <span className="font-bold text-lg leading-tight">Leader du Stockage d'Eau</span>
             </div>
           </div>

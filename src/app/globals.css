@@ -15,6 +15,11 @@
   body {
     @apply font-sans bg-paper text-slate-900;
   }
+
+  img {
+    @apply block max-w-full;
+    height: auto;
+  }
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif;
